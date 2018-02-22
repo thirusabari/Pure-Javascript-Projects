@@ -1,0 +1,33 @@
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\ApplicationInsights.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\csc.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\vbc.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\VBCSCompiler.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Image Slider.dll.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Image Slider.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Image Slider.pdb
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.Web.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.Web.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\obj\Debug\Image Slider.csprojResolveAssemblyReference.cache
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\obj\Debug\Image Slider.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Image Slider\Image Slider\obj\Debug\Image Slider.pdb

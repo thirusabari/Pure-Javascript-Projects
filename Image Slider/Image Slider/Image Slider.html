@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        #pic{
+            width:500px;
+            height:500px;
+        }
+        .navigation{
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+            var pics = ["Images/IMG_20170226_180816.jpg", "Images/IMG_20170121_155621 Cropped.jpg", "Images/IMG_20170515_084433.jpg"];
+            function prev() {
+                var j=null,
+                    count=null;
+                if(j==null){
+                    count = 3;
+                    j = count;
+                }
+                
+                var image = document.getElementById("pic");
+                for (; count > 0;count--) {
+                    image.src = pics[count];
+                    j=count;
+                }
+                if (count == 0) {
+                    count = pics.length;
+                } else {
+                    count=j;
+                }
+            }
+                function next() {
+                    var count = null,
+                        i = null;
+                    if (i == null) {
+                        count = 0;
+                        i = count;
+
+                    }
+                var image = document.getElementById("pic");
+                for (;count<pics.length;count++) {
+                    image.src = pics[count];
+                    i = count;
+                }
+                if (count == pics.length) {
+                    count = 0;
+                } else {
+                    count = i;
+                }
+            }
+    </script>
+    <button type="button" onclick="prev()" class="navigation">Previous</button>
+    <img id="pic" src="Images/IMG_20170121_155621 Cropped.jpg"/>
+    <button type="button" onclick="next()" class="navigation">Next</button>
+</body>
+</html>
