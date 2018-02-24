@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        #image{
+            height:500px;
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var i = 0;
+        window.onload = function () {
+            setInterval(autoImageSlider, 1000);
+            function autoImageSlider() {
+                var sources = ["Images/IMG_20170121_155621 Cropped.jpg", "Images/IMG_20170226_180816.jpg", "Images/IMG_20170515_084433.jpg"];
+                var img = document.getElementById("image");
+                    for (; i < sources.length;) {
+                        img.src = sources[++i];
+                        break;
+                    }
+                if (i == sources.length - 1) {
+                    i = 0;
+                }
+            }
+        };
+    </script>
+    <img id="image" src="Images/IMG_20170121_155621 Cropped.jpg" />
+</body>
+</html>
