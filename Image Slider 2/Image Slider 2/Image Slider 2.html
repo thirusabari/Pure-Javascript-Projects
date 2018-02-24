@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        #pic{
+            width:400px;
+            height:400px;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        var img = ["Images/IMG_20170121_155621 Cropped.jpg", "Images/IMG_20170226_180816.jpg", "Images/IMG_20170515_084433.jpg"];
+        var i = 0;
+            function change() {
+                var pics = document.getElementById("pic");
+                for (; i < img.length;) {
+                    pics.src = img[++i];
+                    break;
+                }
+                if (i == img.length - 1) {
+                    i = 0;
+                }
+            }
+    </script>
+    <img id="pic" src="Images/IMG_20170121_155621 Cropped.jpg" />
+    <button type="button" id="Next" onclick="change()">Next</button>
+</body>
+</html>
