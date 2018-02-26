@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <style>
+        #apply{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function getInfo() {
+            var user = document.getElementById("name");
+            var password = document.getElementById("word");
+            var check = document.getElementById("apply")
+            var div = document.getElementById("validation");
+            div.appendChild(check);
+            check.style.display = "block";
+            if (user.value !== "" && user.value !== null && user.value !== undefined && user.value === "Creator" && password.value !== "" && password.value !== null
+                && password.value !== undefined && password.value === "Inventions-3") {
+                check.style.color = "Green";
+            } else {
+                check.innerHTML = "You have entered wrong username and password";
+                check.style.color = "red";
+            }
+        }
+    </script>
+    <div id="validation">
+        <label>Get Current User Details</label>
+        <p>Username: </p><input type="text" id="name" /><br />
+        <p>Password: </p><input type="text" id="word" /><br />
+        <button type="button" onclick="getInfo()" id="Validate">Validate</button>
+        </div>
+    <p id="apply">Your User name and password is correct</p>
+</body>
+</html>
