@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Arithmetic Calculator</title>
+	<meta charset="utf-8" />
+</head>
+<body onload="showMenu()" onclick="choseOperation()">
+    <script type="text/javascript">
+        var opera = null,
+            no = null,
+            result = null;
+        function initializeVariables() {
+            opera = document.getElementById("op");
+            no = document.getElementById("nos");
+            result = document.getElementById("output");
+        }
+        function showMenu() {
+            setTimeout(function () {
+                alert("Hi Guys!. Welcome to the Arithmetic Calculator. \n Please find the list given below and choose a number for your arithmetic operation \n 1. Addition \n 2. Subtraction \n" +
+                    "3. Multiplication \n 4. Division \n 5. Percentage ");
+                chooseOperation();
+            }, 1000);
+        }
+        function chooseOperation() {
+            initializeVariables();
+            var n = parseInt(prompt("Choose an operation to perform"));
+            switch (n) {
+                case 1:
+                    opera.value = "Addition";
+                    break;
+                case 2:
+                    opera.value = "Subtraction";
+                    break;
+                case 3:
+                    opera.value = "Multiplication";
+                    break;
+                case 4:
+                    opera.value = "Division";
+                    break;
+                case 5:
+                    opera.value = "Percentage";
+                    break;
+                default:
+                    opera.value = "";
+                    break;
+            }
+            if (opera.value !== "" && opera.value !== null && opera.value !== undefined) {
+                selectValues(opera.value);
+            }
+        }
+        function selectValues(o) {
+            setTimeout(function () {
+                no.value = prompt("Enter the number of values to perform your operation");
+                if (no.value !== "" && no.value !== null && no.value !== undefined) {
+                    Math(o, parseInt(no.value));
+                }
+            }, 1000);
+        }
+        function Math(func, val) {
+            switch (func) {
+                case "Addition":
+                    result.value = findSum(val);
+                    break;
+                case "Subtraction":
+                    result.value = findSub(val);
+                    break;
+                case "Multiplication":
+                    result.value = findMul(val);
+                    break;
+                case "Division":
+                    result.value = findDiv(val);
+                    break;
+                case "Percentage":
+                    result.value = findPercentage(val);
+                    break;
+                default:
+                    result.value = 0;
+                    break;
+            }
+            if (result.value === 0) {
+                setTimeout(function () {
+                    alert("The Expected Operation was not performed. Check your input values are correct");
+                }, 1000);
+            }
+        }
+        function findSum(val) {
+            var sum = 0;
+            var v = new Array();
+            v = getInputs(val);
+            for (var s = 0; s < v.length; s++) {
+                sum = sum + v[s];
+            }
+            if (sum !== "" && sum !== 0 && sum !== null && sum !== undefined) {
+                return sum;
+            }
+        }
+        function findSub(val) {
+            var diff = 0;
+            var count = 0;
+            var d = new Array();
+            d = getInputs(val);
+            for (var f = 0; f < d.length; f++) {
+                if (count === 0) {
+                    diff = diff + d[f];
+                    count++;
+                } else {
+                    diff = diff - d[f];
+                }
+            }
+            if (diff !== "" && diff !== 0 && diff !== null && diff !== undefined) {
+                return diff;
+            }
+        }
+        function findMul(val) {
+            var mul = 0;
+            var count = 0;
+            var m = new Array();
+            m = getInputs(val);
+            for (var p = 0; p < m.length; p++) {
+                if (count === 0) {
+                    mul = mul + m[p];
+                    count++;
+                } else {
+                    mul = mul * m[p];
+                }
+            }
+            if (mul !== "" && mul !== 0 && mul !== null && mul !== undefined) {
+                return mul;
+            }
+        }
+        function findDiv(val) {
+            var div = 0;
+            var count = 0;
+            var di = new Array();
+            di = getInputs(val);
+            for (var z = 0; z < di.length; z++) {
+                if (count === 0) {
+                    div = div + di[z];
+                    count++;
+                } else {
+                    div = div / di[z];
+                }
+            }
+            if (div !== "" && div !== undefined && div !== null && div !== 0) {
+                return div;
+            }
+        }
+        function findPercentage(val) {
+            var pi = null;
+            var count = 0;
+            var per = new Array();
+            per = getInputs(val);
+            for (var r = 0; r < per.length; r++) {
+                if (count === 0) {
+                    pi = pi + per[r];
+                    count++;
+                } else {
+                    pi = pi % per[r];
+                }
+            }
+            if (pi !== "" && pi !== null && pi !== undefined) {
+                return pi;
+            }
+        }
+        function getInputs(val) {
+            var inputs = [];
+            for (var i = 0; i < val; i++) {
+                var ans = prompt("Enter your " + i + "th value");
+                if (ans !== "" && ans !== null && ans !== undefined) {
+                    inputs.push(parseInt(ans));
+                }
+            }
+            if (inputs.length !== 0) {
+                return inputs;
+            }
+        }
+    </script>
+    <h1>Arthmetic Calculator</h1>
+    <div>
+        <label>Operation: </label><input type="text" id="op"/><br/>
+        <p></p>
+        <p></p>
+        <p></p>
+        <label>Number of Values you have chosen: </label><input type="text" id="nos" /><br />
+        <p></p>
+        <p></p>
+        <p></p>
+        <label>Output: </label><input type="text" id="output" />
+    </div>
+</body>
+</html>

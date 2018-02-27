@@ -1,0 +1,33 @@
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\ApplicationInsights.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\csc.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\vbc.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\VBCSCompiler.exe
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Arithmetic Calculator.dll.config
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Arithmetic Calculator.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Arithmetic Calculator.pdb
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.Web.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.ApplicationInsights.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.Web.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.ApplicationInsights.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\obj\Debug\Arithmetic Calculator.csprojResolveAssemblyReference.cache
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\obj\Debug\Arithmetic Calculator.dll
+C:\Users\thirunavukkarasu.gna\Documents\GitHub\Pure-Javascript-Projects\Arithmetic Calculator\Arithmetic Calculator\obj\Debug\Arithmetic Calculator.pdb
