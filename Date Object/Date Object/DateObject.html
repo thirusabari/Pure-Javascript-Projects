@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Date Object</title>
+    <style>
+        #date {
+            height:250px;
+            width:1000px;
+            border:5px dashed skyblue;
+        }
+        #inputs {
+            height:50px;
+            width:150px;
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="date">
+        <h1>This page contains following date object functionalities</h1>
+        <ol>
+            <li>getFullYear</li>
+            <li>getMonth</li>
+            <li>getDate</li>
+            <li>getDay</li>
+            <li>getHours</li>
+            <li>getMinutes</li>
+            <li>getSeconds</li>
+            <li>getMilliSeconds</li>
+        </ol>
+    </div>
+    <h4>Enter the name of the function in below text area</h4>
+    <textarea id="inputs" onblur="perform()"></textarea>
+    <h5>Output:-</h5>
+    <input type="text" id="out" />
+    <script>
+        function perform() { 
+        var area = document.getElementById("inputs");
+        var output = document.getElementById("out");
+        var d = new Date();
+        switch (area.value) {
+            case "getFullYear":
+                output.value = d.getFullYear();
+                break;
+            case "getMonth":
+                output.value = d.getMonth();
+                break;
+            case "getDate":
+                output.value = d.getDate();
+                break;
+            case "getDay":
+                output.value = d.getDay();
+                break;
+            case "getHours":
+                output.value = d.getHours();
+                break;
+            case "getMinutes":
+                output.value = d.getMinutes();
+                break;
+            case "getSeconds":
+                output.value = d.getSeconds();
+                break;
+            case "getMilliSeconds":
+                output.value = d.getMilliseconds();
+                break;
+            default:
+                output.value = 0;
+                break;
+        }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Math Object</title>
+    <style>
+        #perform {
+            width:400px;
+            height:350px;
+            border:2px solid black;
+            background-color:aquamarine;
+        }
+        #operation {
+            width:400px;
+            height:150px;
+            border:2px solid black;
+            background-color:lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <label><b>Peform Math Operations Using In-Built Math Object in Javascript</b></label>
+    <div id="perform">
+        <p>This page contains the following Math operations only</p>
+        <p id="one">1. Maximum</p>
+        <p id="two">2. Minimum</p>
+        <p id="cos">3. Cos</p>
+        <p id="sin">4. Sin</p>
+        <p id="tan">5. Tan</p>
+        <p id="pi">6. PI</p>
+        <p id="round">7. Round</p>
+        <p id="sqrt">8. Square Root</p>
+        <p id="power">9. power</p>
+    </div>
+    <hr style="outline-color:greenyellow;width:1500px;height:2px;" />
+    <p><b>The Math Operation You Performed was given below:</b></p>
+    <div id="operation">
+        <p id="values"></p>
+        <p id="output"></p>
+    </div>
+    <script>
+        // After the contents of the document loaded, the scripts functionalities will starts after 4 seconds
+        setTimeout(function () { 
+        var op = document.getElementById("operation");
+        var perf = document.getElementById("perfom");
+        var p = document.getElementById("one");
+        var two = document.getElementById("two");
+        var cos = document.getElementById("cos");
+        var sin = document.getElementById("sin");
+        var tan = document.getElementById("tan");
+        var PI = document.getElementById("pi");
+        var round = document.getElementById("round");
+        var getOperation = parseInt(prompt("Enter a number to perform your operation"));
+        var squareroot = document.getElementById("sqrt");
+        var powerOf = document.getElementById("power");
+        var val = document.getElementById("values");
+        var out = document.getElementById("output");
+        var dummy = 0;
+        var max = 0;
+        function Max(e) {
+            for (var i = 0; i < e; i++) {
+                if (max === 0) {
+                    ++dummy;
+                }
+                var num = parseInt(prompt("Enter the " + i + "nd number"));
+                max = Math.max(dummy, num);
+                if (i != e - 1) {
+                    dummy = max;
+                } else {
+                    return max;
+                }
+            }
+        }
+        var min = 0;
+        var dum = 0;
+        function Min(m) {
+            for (var j = 0; j < m; j++) {
+                if (min === 0) {
+                    ++dum;
+                }
+                var n = parseInt(prompt("Enter the " + j + "nd number"));
+                min = Math.min(dum, n);
+                if (j != m - 1) {
+                    dum = min;
+                } else {
+                    return min;
+                }
+            }
+        }
+        switch (getOperation) {
+            case 1:
+                x = parseInt(prompt("Enter the amount of numbers to find the maximum"));
+                val.innerHTML = "You have chosen" + x + "numbers to find the maximum";
+                out.innerHTML = Max(x);
+                break;
+            case 2:
+                x = parseInt(prompt("Enter the amount of numbers to find the minimum"));
+                val.innerHTML = "You have chosen" + x + "counts to find the minimum";
+                out.innerHTML = Min(x);
+                break;
+            case 3:
+                x = parseInt(prompt("Enter a number to find the cos"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.cos(x);
+                break;
+            case 4:
+                x = parseInt(prompt("Enter a number to find the sin"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.sin(x);
+                break;
+            case 5:
+                x = parseInt(prompt("Enter a number to find the tan"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.tan(x);
+                break;
+            case 6:
+                val.innerHTML = "The value of PI is give below ";
+                out.innerHTML = Math.PI;
+                break;
+            case 7:
+                x = parseInt(prompt("Enter a number to find the round"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.round(x);
+                break;
+            case 8:
+                x = parseInt(prompt("Enter a number to find the sqaure root"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.sqrt(x);
+                break;
+            case 9:
+                x = parseInt(prompt("Enter a number to find the power of your number"));
+                var pow = parseInt(prompt("Enter the power value of the number"));
+                val.innerHTML = "You have entered the following value " + x;
+                out.innerHTML = Math.pow(x,pow);
+                break;
+        }
+        }, 4000);
+    </script>
+</body>
+</html>
