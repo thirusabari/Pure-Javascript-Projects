@@ -1,0 +1,5 @@
+E:\GitHub\Pure-Javascript-Projects\My WebPage\My WebPage\bin\My WebPage.dll
+E:\GitHub\Pure-Javascript-Projects\My WebPage\My WebPage\bin\My WebPage.pdb
+E:\GitHub\Pure-Javascript-Projects\My WebPage\My WebPage\obj\Debug\My WebPage.csprojResolveAssemblyReference.cache
+E:\GitHub\Pure-Javascript-Projects\My WebPage\My WebPage\obj\Debug\My WebPage.dll
+E:\GitHub\Pure-Javascript-Projects\My WebPage\My WebPage\obj\Debug\My WebPage.pdb

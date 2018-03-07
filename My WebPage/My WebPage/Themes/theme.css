@@ -1,0 +1,28 @@
+﻿#page {
+    width:1340px;
+    height:580px;
+}
+#biograph {
+    height:170px;
+    width:1360px;
+    padding-top:5px;
+    border-bottom:2px solid black;
+    background-color:powderblue;
+}
+#myphoto {
+    width:150px;
+    height:150px;
+    border:2px solid skyblue;
+    float:right;
+}
+#intro {
+    float:right;
+    font-family:sans-serif,'Times New Roman';
+    font-size:small;
+    font-weight:400;
+    text-align:justify;
+    padding:5px 5px;
+}
+#gallery {
+
+}
