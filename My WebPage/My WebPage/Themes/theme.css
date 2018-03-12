@@ -1,6 +1,6 @@
 ﻿#page {
-    width:1340px;
-    height:580px;
+    max-width:1340px;
+    max-height:580px;
 }
 #biograph {
     height:170px;
@@ -24,5 +24,44 @@
     padding:5px 5px;
 }
 #gallery {
-
+    max-height:352px;
+    max-width:1340px;
+    border:2px solid black;
+}
+img {
+    width:500px;
+    height:350px;
+    z-index:1;
+    position:relative;
+}
+#leftpanel {
+    width:50px;
+    height:350px;
+    border:2px solid black;
+    float:left;
+    margin-left:5px;
+    background-color:greenyellow;
+}
+#rightpanel {
+    width:50px;
+    height:350px;
+    border:2px solid black;
+    float:right;
+    margin-right:5px;
+    background-color:greenyellow;
+}
+#arrow1 {
+    width:40px;
+    height:40px;
+    background-color:red;
+    margin-top:150px;
+    margin-left:4px;
+    border-radius:-2px;
+}
+#arrow2 {
+    width:40px;
+    height:40px;
+    background-color:red;
+    margin-top:150px;
+    margin-left:4px;
 }

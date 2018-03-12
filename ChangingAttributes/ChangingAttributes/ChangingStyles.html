@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Changing Attributes</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <style>
+        img {
+            width:800px;
+            height:400px;
+        }
+        
+        .attributes {
+            color:red;
+            font-size:13px;
+            border:1px solid;
+            border-radius:1px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <img src="Images/2013_audi_r8_v10_27_1600x1200.jpg" />
+    </div>
+    <p>I am creator</p>
+    <p id="something">I Would like to create something Different Projects</p>
+    <button name="ChangeImage" id="ChangeImage">ChangeImage</button>
+    <button name="something" id="some">SomthingDifferent</button>
+    <script type="text/javascript">
+        $(function () {
+            $("#ChangeImage").click(function () {
+                $("img").attr("src", "Images/audi-allroad-crossover-2016-photo-01.jpg");
+            });
+            $("#some").click(function () {
+                $("#something").addClass("attributes");
+                
+            });
+        });
+    </script>
+</body>
+</html>

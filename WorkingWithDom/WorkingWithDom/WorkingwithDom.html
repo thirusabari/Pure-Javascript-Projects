@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Working With Dom Using Javascript</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <style>
+        img {
+            width:600px;
+            height:300px;
+            display:inline;
+        }
+    </style>
+</head>
+<body>
+    <p id="i">I am Creator</p>
+    <p id="who">Creating UseFul Applications</p>
+    <p id="MonthlyIncome">10 Million</p>
+    <p class="cla">one</p>
+    <p class="cla">one</p>
+    <p class="cla">one</p>
+    <p class="cla">one</p>
+    <img src="Images/audi-3.jpg" />
+    <img src="Images/audi_tt_s_line_competition-1280x768.jpg" /><br />
+    <button id="ElementById" name="ElementById">ElementById</button>
+    <button id="ElementByClass" name="ElementByClass">ElementByClass</button>
+    <button id="ElementByTagName" name="ElementByTagName">ElementByTagName</button>
+    <button id="AddElement" name="AddElement">AddElement</button>
+    <button id="removeElement" name="removeElement">RemoveElement</button>
+    <button id="replaceElement" name="replaceElement">replaceElement</button>
+    <button id="childNodes" name="childNodes">childNodes</button>
+    <button id="firstChild" name="firstChild">firstChild</button>
+    <button id="lastChild" name="lastChild">lastChild</button>
+    <button id="hasChildNodes" name="hasChildNodes">hasChildNodes</button>
+    <button id="nextSibling" name="nextSibling">nextSibling</button>
+    <button id="previousSibling" name="previousSibling">previousSibling</button>
+    <button id="parentNode" name="parentNode">parentNode</button>
+    <script type="text/javascript">
+        $(function () {
+            $("#ElementById").click(function () {
+                var para = document.getElementById("i");
+                para.innerHTML = "Thirunavukkarasu";
+            });
+            $("#ElementByClass").click(function () {
+                var classname = document.getElementsByClassName("cla");
+                for (var i = 0; i < classname.length; i++) {
+                    classname[i].textContent = "two";
+                }
+            });
+            $("#ElementByTagName").click(function () {
+                var img = document.getElementsByTagName("img");
+                img[0].src="Images/2013_audi_r8_v10_10_1600x1200.jpg";
+                img[1].src="Images/ducati-supersport-front-profile.jpg";
+            });
+            $("#AddElement").click(function () {
+                var div = "<p>Hai! I am Creator</p>";
+                $("#i").append(div);
+            });
+            $("#removeElement").click(function () {
+                $("#i").remove();
+            });
+            $("#replaceElement").click(function () {
+                $("#i").replaceWith("<p>My Monthly Salary is 10,000,000</p>");
+            });
+            $("#childNodes").click(function () {
+                console.log("The ChildNodes = " +document.childNodes);
+            });
+            $("#firstChild").click(function () {
+                console.log("The ChildNodes = " + document.firstChild);
+            });
+            $("#lastChild").click(function () {
+                console.log("The ChildNodes = " + document.lastChild);
+            });
+            $("#hasChildNodes").click(function () {
+                console.log("has ChildNodes = " + document.hasChildNodes);
+            });
+            $("#nextSibling").click(function () {
+                console.log("next Siblings = " + document.nextSibling);
+            });
+            $("#previousSibling").click(function () {
+                console.log("The Previous Sibling = " + document.previousSibling);
+            });
+            $("#parentNode").click(function () {
+                console.log("the parentNode = "+document.parentNode);
+            });
+
+        });
+    </script>
+</body>
+</html>

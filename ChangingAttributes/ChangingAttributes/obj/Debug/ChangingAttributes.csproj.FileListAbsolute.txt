@@ -1,0 +1,5 @@
+E:\GitHub\Pure-Javascript-Projects\ChangingAttributes\ChangingAttributes\bin\ChangingAttributes.dll
+E:\GitHub\Pure-Javascript-Projects\ChangingAttributes\ChangingAttributes\bin\ChangingAttributes.pdb
+E:\GitHub\Pure-Javascript-Projects\ChangingAttributes\ChangingAttributes\obj\Debug\ChangingAttributes.csprojResolveAssemblyReference.cache
+E:\GitHub\Pure-Javascript-Projects\ChangingAttributes\ChangingAttributes\obj\Debug\ChangingAttributes.dll
+E:\GitHub\Pure-Javascript-Projects\ChangingAttributes\ChangingAttributes\obj\Debug\ChangingAttributes.pdb

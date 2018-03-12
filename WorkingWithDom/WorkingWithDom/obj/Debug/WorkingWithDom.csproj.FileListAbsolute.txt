@@ -1,0 +1,5 @@
+E:\GitHub\Pure-Javascript-Projects\WorkingWithDom\WorkingWithDom\bin\WorkingWithDom.dll
+E:\GitHub\Pure-Javascript-Projects\WorkingWithDom\WorkingWithDom\bin\WorkingWithDom.pdb
+E:\GitHub\Pure-Javascript-Projects\WorkingWithDom\WorkingWithDom\obj\Debug\WorkingWithDom.dll
+E:\GitHub\Pure-Javascript-Projects\WorkingWithDom\WorkingWithDom\obj\Debug\WorkingWithDom.pdb
+E:\GitHub\Pure-Javascript-Projects\WorkingWithDom\WorkingWithDom\obj\Debug\WorkingWithDom.csprojResolveAssemblyReference.cache
