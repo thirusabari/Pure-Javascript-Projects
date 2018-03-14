@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Animation</title>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+    <style>
+        #container {
+            width:1350px;
+            height:600px;
+            border-radius:2px;
+            position:relative;
+            border:2px solid black;
+        }
+        #inner {
+            width:100px;
+            height:100px;
+            background-color:seagreen;
+            position:absolute;
+        }
+        #outer {
+            width:100px;
+            height:100px;
+            background-color:grey;
+            position:absolute;
+            bottom:0px;
+            right:0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="inner"></div>
+        <div id="outer"></div>
+        <script type="text/javascript">
+            $(function () {
+                var pos = 0;
+                var containerWidth = $("#container").width();
+                var innerWidth = $("#inner").width();
+                var outerWidth = $("#outer").width();
+                setInterval(moveright, 1000);
+                setInterval(moveleft, 1000);
+                function moveright() {
+                    pos += 50;
+                    if (pos < containerWidth - 50) {
+                        $("#inner").css("left", pos + 'px');
+                    } else {
+                        if ($("#inner").css('right') === "0px") {
+                            setInterval(movebottom, 1000);
+                        }
+                    }
+                }
+                var pos1 = 0;
+                function moveleft() {
+                    pos1 += 50;
+                    if (pos1 < containerWidth - 50) {
+                        $("#outer").css("right", pos1 + 'px');
+                    } else {
+                        if ($("#outer").css("left") === "0px") {
+                            setInterval(movetop, 1000);
+                        }
+                    }
+                }
+                var pos2 = 0;
+                function movetop() {
+                    pos2 += 50;
+                    if (pos2 < $("#container").height()-50) {
+                        $("#outer").css("bottom",pos2+"px");
+                    }
+                }
+                var pos3 = 0;
+                function movebottom() {
+                    pos3 += 50;
+                    if (pos3 < $("#container").height() - 50) {
+                        $("#inner").css("top", pos3 + "px");
+                    } 
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>

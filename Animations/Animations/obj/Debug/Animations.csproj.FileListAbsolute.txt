@@ -1,0 +1,5 @@
+E:\GitHub\Pure-Javascript-Projects\Animations\Animations\bin\Animations.dll
+E:\GitHub\Pure-Javascript-Projects\Animations\Animations\bin\Animations.pdb
+E:\GitHub\Pure-Javascript-Projects\Animations\Animations\obj\Debug\Animations.csprojResolveAssemblyReference.cache
+E:\GitHub\Pure-Javascript-Projects\Animations\Animations\obj\Debug\Animations.dll
+E:\GitHub\Pure-Javascript-Projects\Animations\Animations\obj\Debug\Animations.pdb
