@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Javascript Events</title>
+    <style>
+        #right {
+            width:150px;
+            height:150px;
+            float:right;
+            background-color:red;
+        }
+    </style>
+    <script src="Scripts/jquery-3.3.1.min.js"></script>
+</head>
+<body onload="welcome()" onunload="goodbye()">
+    <h1>This page contains basic javascript Events</h1>
+    <button onclick="show()">ClickMe</button>
+    <input  type="text"  id="inputbox"onchange="change()"/>
+    <div id="summary"></div>
+    <div id="right" onmouseover="color()" onmouseout="green()" onmousedown="brown()" onmouseup="yellow()"></div>
+    <input id="one" type="text"onfocus="text()" onblur="thanks()"/>
+    <script type="text/javascript">
+        function show() {
+            $("#summary").append("<p>Onclick Event is triggered</p>");
+        }
+        function welcome() {
+            $("#summary").append("<p>onload Event is trigggered</p>");
+        }
+        function change() {
+            $("#inputbox").val("10,000,000");
+            $("#summary").append("<p>onChange Event is triggered</p>");
+        }
+        function goodbye() {
+            $("#summary").append("<p>onunload Event is triggered</p>");
+        }
+        function color() {
+            $("#summary").append("<p>onmouseover Event is triggered</p>");
+            $("#right").css("background-color", "blue");
+        }
+        function green() {
+            $("#summary").append("<p>onmouseout Event is triggered</p>");
+            $("#right").css("background-color", "green");
+        }
+        function brown() {
+            $("#summary").append("<p>onmousedown Event is triggered</p>");
+            $("#right").css("background-color", "brown");
+        }
+        function yellow() {
+            $("#summary").append("<p>onmouseup Event is triggered</p>");
+            $("#right").css("background-color", "yellow");
+        }
+        function text() {
+            $("#one").val("Enter your name");
+            $("#summary").append("<p>onfocus Event is triggered</p>");
+        }
+        function thanks() {
+            $("#one").val("Thanks for focusing");
+            $("#summary").append("<p>onblur Event is triggered</p>");
+        }
+    </script>
+</body>
+</html>
